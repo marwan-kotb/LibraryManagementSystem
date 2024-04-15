@@ -8,7 +8,6 @@ This Library Management System is a RESTful API developed using Spring Boot, des
 - Manage patrons
 - Track borrowing records
 - Basic authentication
-- Automated testing with JUnit
 
 ## Technologies
 
