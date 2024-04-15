@@ -60,8 +60,8 @@ Attributes:
 1 - Clone the repository:
 
 
-`git clone https://github.com/yourusername/library-management-system.git
-cd library-management-system`
+`git clone https://github.com/yourusername/library-management-system.git`
+`cd library-management-system`
 
 2 - Build the project:
 
@@ -97,7 +97,6 @@ The API uses basic authentication. Use the following credentials:
       "publicationYear": 1949,
       "isbn": "0123456789"
     }
-    
 `
 
 2 - Get All Books
@@ -119,7 +118,9 @@ The API uses basic authentication. Use the following credentials:
 	  "publicationYear": 1950,
 	  "isbn": "0123456789"
 	}
-`
+ `
+
+
 4 - Delete a Book
 - URL: DELETE /api/books/{id}
 - Headers: Authorization: Basic <credentials>
