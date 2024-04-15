@@ -86,7 +86,7 @@ The API uses basic authentication. Use the following credentials:
 
 1 - Add a Book
  - URL: POST /api/books
- - Headers: Content-Type: application/json, Authorization: Basic <credentials>
+ - Headers: Content-Type: application/json, Authorization: Basic credentials
  - Body:
 
 
@@ -107,7 +107,7 @@ The API uses basic authentication. Use the following credentials:
 3 - Update a Book
 
 - URL: PUT /api/books/{id}
-- Headers: Content-Type: application/json, Authorization: Basic <credentials>
+- Headers: Content-Type: application/json, Authorization: Basic credentials
 - Body:
 
     
@@ -123,9 +123,9 @@ The API uses basic authentication. Use the following credentials:
 
 4 - Delete a Book
 - URL: DELETE /api/books/{id}
-- Headers: Authorization: Basic <credentials>
+- Headers: Authorization: Basic credentials
 
-Replace <credentials> with the Base64 encoded string of username:password.
+Replace credentials with the Base64 encoded string of username:password.
 
 
 
