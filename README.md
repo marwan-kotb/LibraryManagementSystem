@@ -60,8 +60,8 @@ Attributes:
 1 - Clone the repository:
 
 
-`git clone https://github.com/yourusername/library-management-system.git`
-`cd library-management-system`
+`git clone https://github.com/marwan-kotb/LibraryManagementSystem.git`
+`cd LibraryManagementSystem`
 
 2 - Build the project:
 
